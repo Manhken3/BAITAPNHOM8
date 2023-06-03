@@ -1,0 +1,181 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+@media(max-width: 767px) {
+    .hide-mb{
+        display: none;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1023px) {
+    .hide-tab{
+        display: none;
+     }
+}
+@media(min-width: 1024px) {
+    .main-menu >li:not(:last-child) {
+        margin-right: 25px;
+        padding-right: 25px;
+        border-right: 1px solid #eee;
+    }
+}
+
+.divider
+{
+	position: relative;
+	margin-top: 60px;
+	height: 1px;
+}
+
+.div-transparent:before
+{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 5%;
+	right: 5%;
+	width: 90%;
+	height: 1px;
+	background-image: linear-gradient(to right, transparent, rgb(181 181 181), transparent);
+}
+.header-row{
+    border-bottom: 2px solid #e3e3e3;
+    padding-bottom: 5px;
+}
+
+.header-row a, .link-profile{
+    color: #75ce45;
+    font-size: 14px;
+}
+
+.text-link{
+    color: #75ce45;
+}
+
+.fs-18{
+    color: #75ce45;
+    font-size: 18px;
+}
+
+.post-item .box-img{
+    padding-right: 13px;
+}
+
+.img-avt{
+    max-height: 195px;
+    object-fit: cover;
+}
+
+
+.logo-footer{
+    border: 1px solid #e3e3e3;
+    padding: 5px;
+}
+
+.list-group .list-group-item{
+    background: transparent;
+    padding-left: 0;
+    border-bottom-color: #5a5a5a ;
+}
+
+.icon-quote-right {
+    transform: rotate(180deg);
+}
+
+.icon-quote{
+    font-size: 20px ;
+}
+.baby{
+    color: #e3e3e3;
+}
+.tt-post{
+    color: #bdd198 ;
+}
+
+.bg-link{
+    background-color: #75ce45;
+}
+
+.form-control{
+    background: #7c7c7c ;
+    border: 0 ;
+}
+
+.form-control::placeholder{
+    color: #a3a3a3;
+}
+
+.text-light{
+    color: #a3a3a3      ;
+}
+
+footer .row-bottom{
+    border-top: 1px solid #fc8209;
+}
+
+form.search{
+    position: relative;
+}
+
+form.search input{
+    border-radius: 36px;
+}
+.manh{
+    color: #75ce45;
+}
+
+form.search input::placeholder{
+    color: #fff ; 
+}
+
+.icon-search{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 36px;
+    height: 36px;
+    background: #101010;
+    border-radius: 36px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-brand{
+    font-family: 'Monomaniac One', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.contents{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.container-fluid{
+    font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.card-text{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.box-text{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.aa{
+    color: #5a5a5a;
+}
+.view-profile{
+    color: #101010;
+}
+.allrouder{
+    font-size: 50px
+    
+}
+.allrouder{
+    color: #ac18ce;
+}
